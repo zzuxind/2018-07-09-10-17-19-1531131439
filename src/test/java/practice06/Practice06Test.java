@@ -43,8 +43,8 @@ public class Practice06Test {
 
     @Test
     public void should_teacher_introduce_itself_with_which_class_it_teaches() throws Exception {
-        Teacher tom = new Teacher("Tom", 21, 2);
-        assertThat(tom.introduce()).isEqualTo("My name is Tom. I am 21 years old. I am a Teacher. I teach Class 2.");
+        Teacher tom = new Teacher("teacher", 21, 2);
+        assertThat(tom.introduce()).isEqualTo("My name is teacher. I am 21 years old.I am a Teacher. I teach Class 2.");
     }
 
     @Test
