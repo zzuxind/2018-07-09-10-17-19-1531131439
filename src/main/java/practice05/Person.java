@@ -31,8 +31,4 @@ public class Person {
         return basicIntroduce();
     }
 
-    public  static  void main(String[] args){
-        Person person=new Person("tom",21);
-        person.introduce();
-    }
 }
